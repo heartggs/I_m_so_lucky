@@ -1,4 +1,4 @@
-import "./src/main.css";
+import "./main.css";
 import "../image/grass-1000-mm-architextures.jpg";
 import "../image/slot_image.png";
 import "../image/lucky_image_540.jpg";
