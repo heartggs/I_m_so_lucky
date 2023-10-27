@@ -1,0 +1,901 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited,
+a:active {
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../image/cotton-canvastextures.jpg);
+}
+
+.paperdoll {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 7px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.paperdoll .section_hyeji {
+  position: relative;
+}
+.paperdoll .section_hyeji .explanation {
+  width: 20.3rem;
+  height: 36rem;
+  background: gray;
+  position: absolute;
+  top: 0;
+  left: auto;
+  border-radius: 2%;
+  mix-blend-mode: difference;
+}
+.paperdoll .section_hyeji span:first-child {
+  position: absolute;
+  top: -1rem;
+  left: 10.6rem;
+  width: 0.2rem;
+  height: 2.3rem;
+  background: black;
+}
+.paperdoll .section_hyeji span:nth-child(2) {
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+  width: 0.15rem;
+  height: 7rem;
+  background: black;
+  rotate: 90deg;
+}
+.paperdoll .section_hyeji span:nth-child(3) {
+  position: absolute;
+  top: 11rem;
+  left: 19rem;
+  width: 0.15rem;
+  height: 4.5rem;
+  background: black;
+  rotate: 90deg;
+}
+.paperdoll .section_hyeji span:nth-child(4) {
+  position: absolute;
+  top: 21rem;
+  left: 17.3rem;
+  width: 0.15rem;
+  height: 8rem;
+  background: black;
+  rotate: 90deg;
+}
+.paperdoll .section_hyeji span:nth-child(5) {
+  position: absolute;
+  top: 25rem;
+  left: 2.6rem;
+  width: 0.15rem;
+  height: 7.6rem;
+  background: black;
+  rotate: 90deg;
+}
+.paperdoll .section_hyeji span:nth-child(6) {
+  position: absolute;
+  top: 36rem;
+  left: 7.9rem;
+  width: 0.15rem;
+  height: 2.6rem;
+  background: black;
+}
+.paperdoll .section_hyeji span:nth-child(7) {
+  position: absolute;
+  top: 36rem;
+  left: 11.3rem;
+  width: 0.15rem;
+  height: 2.5rem;
+  background: black;
+}
+.paperdoll .section_hyeji img {
+  width: 13rem;
+  margin: 1rem 4rem;
+  cursor: pointer;
+}
+.paperdoll .section_hyeji::after {
+  content: "";
+  content: "";
+  width: 40rem;
+  height: 7px;
+  background: black;
+  position: absolute;
+  top: 18.4rem;
+  left: 1.5rem;
+  rotate: 90deg;
+}
+.paperdoll .section_hyeji .hover_effect {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}
+.paperdoll .section_hyeji .hover_txt {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: white;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: exclusion;
+}
+.paperdoll .section_clothes {
+  padding-left: 2rem;
+  position: relative;
+}
+.paperdoll .section_clothes img {
+  padding: 0 1rem;
+}
+.paperdoll .section_clothes::after {
+  content: "";
+  width: 43rem;
+  height: 7px;
+  background: black;
+  position: absolute;
+  top: 16rem;
+  left: 0.4rem;
+}
+.paperdoll .section_clothes .area {
+  position: relative;
+}
+.paperdoll .top-section,
+.paperdoll .bottom-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paperdoll .top-section {
+  margin-top: -1rem;
+}
+.paperdoll .top-section .shirt span:nth-child(1) {
+  position: absolute;
+  top: -4.8rem;
+  left: 6.5rem;
+  width: 0.15rem;
+  height: 5.1rem;
+  background: black;
+}
+.paperdoll .top-section .shirt span:nth-child(2) {
+  position: absolute;
+  top: 6.9rem;
+  left: 6.5rem;
+  width: 0.15rem;
+  height: 7.3rem;
+  background: black;
+}
+.paperdoll .top-section .shirt .hover_effect {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}
+.paperdoll .top-section .shirt .hover_txt {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: white;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: exclusion;
+}
+.paperdoll .top-section .pants img {
+  width: 150px;
+}
+.paperdoll .top-section .pants span:nth-child(1) {
+  position: absolute;
+  top: -1.5rem;
+  left: 5.5rem;
+  width: 0.15rem;
+  height: 2rem;
+  background: black;
+}
+.paperdoll .top-section .pants span:nth-child(2) {
+  position: absolute;
+  top: 14rem;
+  left: 2.9rem;
+  width: 0.15rem;
+  height: 3rem;
+  background: black;
+}
+.paperdoll .top-section .pants span:nth-child(3) {
+  position: absolute;
+  top: 14rem;
+  left: 8.9rem;
+  width: 0.15rem;
+  height: 3rem;
+  background: black;
+}
+.paperdoll .top-section .pants .hover_effect {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}
+.paperdoll .top-section .pants .hover_txt {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  color: white;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: exclusion;
+}
+.paperdoll .top-section .jacket span:nth-child(1) {
+  position: absolute;
+  top: -4rem;
+  left: 7.3rem;
+  width: 0.15rem;
+  height: 4.7rem;
+  background: black;
+}
+.paperdoll .top-section .jacket span:nth-child(2) {
+  position: absolute;
+  top: 6.1rem;
+  left: 11.8rem;
+  width: 0.15rem;
+  height: 8.7rem;
+  background: black;
+}
+.paperdoll .top-section .jacket span:nth-child(3) {
+  position: absolute;
+  top: 7rem;
+  left: 2.8rem;
+  width: 0.15rem;
+  height: 8rem;
+  background: black;
+}
+.paperdoll .top-section .jacket .hover_effect {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}
+.paperdoll .top-section .jacket .hover_txt {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  color: white;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: exclusion;
+}
+.paperdoll .bottom-section {
+  margin-top: 4rem;
+}
+.paperdoll .bottom-section .dress span:nth-child(1) {
+  position: absolute;
+  top: -1.5rem;
+  left: 2.5rem;
+  width: 0.15rem;
+  height: 7.8rem;
+  background: black;
+}
+.paperdoll .bottom-section .dress span:nth-child(2) {
+  position: absolute;
+  top: -1.4rem;
+  left: 10.6rem;
+  width: 0.15rem;
+  height: 5.5rem;
+  background: black;
+}
+.paperdoll .bottom-section .dress span:nth-child(3) {
+  position: absolute;
+  top: 14.7rem;
+  left: 8.3rem;
+  width: 0.15rem;
+  height: 3.7rem;
+  background: black;
+}
+.paperdoll .bottom-section .dress .hover_effect {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}
+.paperdoll .bottom-section .dress .hover_txt {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: white;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: exclusion;
+}
+.paperdoll .bottom-section .shoe img {
+  width: 150px;
+}
+.paperdoll .bottom-section .shoe span:nth-child(1) {
+  position: absolute;
+  top: -4rem;
+  left: 3.3rem;
+  width: 0.15rem;
+  height: 4.4rem;
+  background: black;
+}
+.paperdoll .bottom-section .shoe span:nth-child(2) {
+  position: absolute;
+  top: -3.9rem;
+  left: 6.7rem;
+  width: 0.15rem;
+  height: 4rem;
+  background: black;
+}
+.paperdoll .bottom-section .shoe span:nth-child(3) {
+  position: absolute;
+  top: 10.3rem;
+  left: 3.3rem;
+  width: 0.15rem;
+  height: 5.5rem;
+  background: black;
+}
+.paperdoll .bottom-section .shoe span:nth-child(4) {
+  position: absolute;
+  top: 10rem;
+  left: 7.7rem;
+  width: 0.15rem;
+  height: 5.8rem;
+  background: black;
+}
+.paperdoll .bottom-section .shoe .hover_effect {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}
+.paperdoll .bottom-section .shoe .hover_txt {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: white;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: exclusion;
+}
+.paperdoll .bottom-section .cap img {
+  width: 150px;
+}
+.paperdoll .bottom-section .cap span:nth-child(1) {
+  position: absolute;
+  top: -3.6rem;
+  left: 5.7rem;
+  width: 0.15rem;
+  height: 3.6rem;
+  background: black;
+}
+.paperdoll .bottom-section .cap span:nth-child(2) {
+  position: absolute;
+  top: 10.6rem;
+  left: 5.3rem;
+  width: 0.15rem;
+  height: 5.3rem;
+  background: black;
+}
+.paperdoll .bottom-section .cap span:nth-child(3) {
+  position: absolute;
+  top: 3.4rem;
+  left: 13rem;
+  width: 0.15rem;
+  height: 1.5rem;
+  background: black;
+  rotate: 90deg;
+}
+.paperdoll .bottom-section .cap .hover_effect {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+}
+.paperdoll .bottom-section .cap .hover_txt {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: white;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: exclusion;
+}
+
+.explanation_popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  width: 61%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.91);
+  flex-direction: column;
+  line-height: 1.8rem;
+  animation: showPopup 1s;
+}
+.explanation_popup h3 {
+  margin-bottom: 1rem;
+}
+.explanation_popup a:hover {
+  color: red;
+}
+.explanation_popup .closeButton {
+  border: 1px solid gray;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.explanation_popup .closeButton:hover {
+  border: none;
+  background: red;
+  color: white;
+}
+
+@keyframes showPopup {
+  0% {
+    right: -61%;
+  }
+  100% {
+    right: 0%;
+  }
+}
+@media screen and (max-width: 1140px) {
+  img {
+    width: 150px;
+  }
+  .paperdoll .section_hyeji img {
+    width: 7.7rem;
+    cursor: pointer;
+    margin: 1rem 2rem;
+  }
+  .paperdoll .section_hyeji span:first-child {
+    top: -2.5rem;
+    left: 6.1rem;
+    width: 0.12rem;
+    height: 3.6rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(2) {
+    top: 3.3rem;
+    left: 1rem;
+    width: 0.12rem;
+    height: 4.2rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(3) {
+    top: 6rem;
+    left: 10.7rem;
+    width: 0.12rem;
+    height: 2.5rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(4) {
+    top: 12.2rem;
+    left: 10rem;
+    width: 0.12rem;
+    height: 4.1rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(5) {
+    top: 15rem;
+    left: 1.2rem;
+    width: 0.12rem;
+    height: 4.6rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(6) {
+    top: 21.6rem;
+    left: 6.2rem;
+    width: 0.12rem;
+    height: 4.1rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(7) {
+    top: 21.5rem;
+    left: 4.5rem;
+    width: 0.12rem;
+    height: 4rem;
+  }
+  .paperdoll .section_hyeji::after {
+    content: "";
+    width: 28.3rem;
+    height: 7px;
+    background: black;
+    position: absolute;
+    top: 11.2rem;
+    left: -2rem;
+    rotate: 90deg;
+  }
+  .paperdoll .section_clothes {
+    position: relative;
+  }
+  .paperdoll .section_clothes::after {
+    content: "";
+    width: 32rem;
+    height: 7px;
+    background: black;
+    position: absolute;
+    top: 12rem;
+    left: 0.3rem;
+  }
+  .paperdoll .section_clothes img {
+    padding: 0 0.8rem;
+  }
+  .paperdoll .top-section {
+    margin-top: 1rem;
+  }
+  .paperdoll .top-section .shirt span:first-child {
+    top: -3.3rem;
+    left: 5rem;
+    width: 0.12rem;
+    height: 3.6rem;
+  }
+  .paperdoll .top-section .shirt span:nth-child(2) {
+    top: 5.2rem;
+    left: 5rem;
+    width: 0.12rem;
+    height: 4.6rem;
+  }
+  .paperdoll .top-section .pants img {
+    width: 90px;
+  }
+  .paperdoll .top-section .pants span:nth-child(1) {
+    top: -2rem;
+    left: 3.5rem;
+    width: 0.12rem;
+    height: 2.4rem;
+  }
+  .paperdoll .top-section .pants span:nth-child(2) {
+    top: 8.2rem;
+    left: 2.6rem;
+    width: 0.12rem;
+    height: 2.8rem;
+  }
+  .paperdoll .top-section .pants span:nth-child(3) {
+    top: 8.2rem;
+    left: 4.6rem;
+    width: 0.12rem;
+    height: 2.8rem;
+  }
+  .paperdoll .top-section .jacket span:nth-child(1) {
+    top: -3rem;
+    left: 5.3rem;
+    width: 0.12rem;
+    height: 3.5rem;
+  }
+  .paperdoll .top-section .jacket span:nth-child(2) {
+    top: 4.6rem;
+    left: 8.8rem;
+    width: 0.12rem;
+    height: 6rem;
+  }
+  .paperdoll .top-section .jacket span:nth-child(3) {
+    top: 5.2rem;
+    left: 1.8rem;
+    width: 0.12rem;
+    height: 5.4rem;
+  }
+  .paperdoll .bottom-section .dress span:nth-child(1) {
+    top: -1.5rem;
+    left: 2.2rem;
+    width: 0.12rem;
+    height: 6.1rem;
+  }
+  .paperdoll .bottom-section .dress span:nth-child(2) {
+    top: -1.6rem;
+    left: 8rem;
+    width: 0.12rem;
+    height: 4.6rem;
+  }
+  .paperdoll .bottom-section .dress span:nth-child(3) {
+    top: 11rem;
+    left: 6.3rem;
+    width: 0.12rem;
+    height: 2rem;
+  }
+  .paperdoll .bottom-section .shoe img {
+    width: 90px;
+  }
+  .paperdoll .bottom-section .shoe span:nth-child(1) {
+    top: -4.2rem;
+    left: 2.3rem;
+    width: 0.12rem;
+    height: 4.4rem;
+  }
+  .paperdoll .bottom-section .shoe span:nth-child(2) {
+    top: -4.2rem;
+    left: 4.3rem;
+    width: 0.12rem;
+    height: 4.3rem;
+  }
+  .paperdoll .bottom-section .shoe span:nth-child(3) {
+    top: 6.2rem;
+    left: 2.3rem;
+    width: 0.12rem;
+    height: 4.4rem;
+  }
+  .paperdoll .bottom-section .shoe span:nth-child(4) {
+    top: 6rem;
+    left: 4.9rem;
+    width: 0.12rem;
+    height: 4.3rem;
+  }
+  .paperdoll .bottom-section .cap img {
+    width: 90px;
+  }
+  .paperdoll .bottom-section .cap span:nth-child(1) {
+    top: -4.3rem;
+    left: 3.7rem;
+    width: 0.12rem;
+    height: 4.4rem;
+  }
+  .paperdoll .bottom-section .cap span:nth-child(2) {
+    top: 6.4rem;
+    left: 3.7rem;
+    width: 0.12rem;
+    height: 4rem;
+  }
+  .popupContent {
+    padding: 0 1rem;
+  }
+  .popupContent h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .popupContent p {
+    font-size: 0.7rem;
+  }
+  .popupContent a {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .paperdoll {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid black;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    flex-direction: column;
+  }
+  .paperdoll .section_hyeji img {
+    width: 5rem;
+    margin: none;
+  }
+  .paperdoll .section_hyeji span:first-child {
+    top: -0.5rem;
+    left: 4.6rem;
+    width: 0.1rem;
+    height: 1.6rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(2) {
+    top: 0.4rem;
+    left: -0.8rem;
+    width: 0.1rem;
+    height: 7rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(3) {
+    top: 2rem;
+    left: 10rem;
+    width: 0.1rem;
+    height: 6.4rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(4) {
+    top: 5.2rem;
+    left: 9.6rem;
+    width: 0.1rem;
+    height: 7.4rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(5) {
+    top: 8rem;
+    left: -0.8rem;
+    width: 0.1rem;
+    height: 7.3rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(6) {
+    top: 14.3rem;
+    left: 4.8rem;
+    width: 0.1rem;
+    height: 1rem;
+  }
+  .paperdoll .section_hyeji span:nth-child(7) {
+    top: 14.3rem;
+    left: 3.5rem;
+    width: 0.1rem;
+    height: 1rem;
+  }
+  .paperdoll .section_hyeji::after {
+    content: "";
+    width: 17.7rem;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 15.2rem;
+    left: -4.3rem;
+    rotate: 180deg;
+  }
+  .paperdoll .top-section .shirt span:first-child {
+    top: -2.3rem;
+    left: 2.7rem;
+    width: 0.1rem;
+    height: 2.5rem;
+  }
+  .paperdoll .top-section .shirt span:nth-child(2) {
+    top: 2.4rem;
+    left: 2.7rem;
+    width: 0.1rem;
+    height: 3.7rem;
+  }
+  .paperdoll .top-section .pants span:nth-child(1) {
+    top: -1.4rem;
+    left: 2.3rem;
+    width: 0.1rem;
+    height: 1.6rem;
+  }
+  .paperdoll .top-section .pants span:nth-child(2) {
+    top: 4.5rem;
+    left: 1.9rem;
+    width: 0.1rem;
+    height: 2.5rem;
+  }
+  .paperdoll .top-section .pants span:nth-child(3) {
+    top: 4.5rem;
+    left: 2.9rem;
+    width: 0.1rem;
+    height: 2.6rem;
+  }
+  .paperdoll .top-section .jacket span:nth-child(1) {
+    top: -2rem;
+    left: 3rem;
+    width: 0.1rem;
+    height: 2.3rem;
+  }
+  .paperdoll .top-section .jacket span:nth-child(2) {
+    top: 2.1rem;
+    left: 4.7rem;
+    width: 0.1rem;
+    height: 4.4rem;
+  }
+  .paperdoll .top-section .jacket span:nth-child(3) {
+    top: 2.4rem;
+    left: 1.3rem;
+    width: 0.1rem;
+    height: 4.1rem;
+  }
+  .paperdoll .section_clothes {
+    padding-left: 0;
+  }
+  .paperdoll .section_clothes img {
+    width: 70px;
+  }
+  .paperdoll .section_clothes .pants img,
+  .paperdoll .section_clothes .shoe img,
+  .paperdoll .section_clothes .cap img {
+    width: 50px;
+  }
+  .paperdoll .section_clothes::after {
+    content: "";
+    width: 17.5rem;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 8rem;
+    left: -0.4rem;
+  }
+  .paperdoll .bottom-section {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .paperdoll .bottom-section .dress span:nth-child(1) {
+    top: -2rem;
+    left: 1.3rem;
+    width: 0.1rem;
+    height: 4.3rem;
+  }
+  .paperdoll .bottom-section .dress span:nth-child(2) {
+    top: -2rem;
+    left: 4.7rem;
+    width: 0.1rem;
+    height: 3.8rem;
+  }
+  .paperdoll .bottom-section .dress span:nth-child(3) {
+    top: 5.1rem;
+    left: 3.3rem;
+    width: 0.1rem;
+    height: 2.3rem;
+  }
+  .paperdoll .bottom-section .shoe span:nth-child(1) {
+    top: -3rem;
+    left: 1.6rem;
+    width: 0.1rem;
+    height: 3.1rem;
+  }
+  .paperdoll .bottom-section .shoe span:nth-child(2) {
+    top: -3rem;
+    left: 2.8rem;
+    width: 0.1rem;
+    height: 3.1rem;
+  }
+  .paperdoll .bottom-section .shoe span:nth-child(3) {
+    top: 3.4rem;
+    left: 1.6rem;
+    width: 0.1rem;
+    height: 3rem;
+  }
+  .paperdoll .bottom-section .shoe span:nth-child(4) {
+    top: 3.3rem;
+    left: 2.9rem;
+    width: 0.1rem;
+    height: 3.1rem;
+  }
+  .paperdoll .bottom-section .cap span:nth-child(1) {
+    top: -3rem;
+    left: 2.3rem;
+    width: 0.1rem;
+    height: 3.1rem;
+  }
+  .paperdoll .bottom-section .cap span:nth-child(2) {
+    top: 3.5rem;
+    left: 2.3rem;
+    width: 0.1rem;
+    height: 2.8rem;
+  }
+  .explanation_popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50vh;
+    animation: showPopup 1s;
+  }
+  .explanation_popup .closeButton {
+    margin-top: 1.5rem;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.7rem;
+  }
+  @keyframes showPopup {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: 50%;
+    }
+  }
+} /*# sourceMappingURL=hyeji.css.map */
