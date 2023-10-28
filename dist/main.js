@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mai
   \***********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"4720c2d4d2323e29d500.jpg\";\n\n//# sourceURL=webpack://lucky/./image/grass-1000-mm-architextures.jpg?");
+eval("module.exports = __webpack_require__.p + \"./image/grass-1000-mm-architextures.jpg\";\n\n//# sourceURL=webpack://lucky/./image/grass-1000-mm-architextures.jpg?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("module.exports = __webpack_require__.p + \"4720c2d4d2323e29d500.jpg\";\n\n
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"418d633aba002bafb183.jpg\";\n\n//# sourceURL=webpack://lucky/./image/lucky_image_320.jpg?");
+eval("module.exports = __webpack_require__.p + \"./image/lucky_image_320.jpg\";\n\n//# sourceURL=webpack://lucky/./image/lucky_image_320.jpg?");
 
 /***/ }),
 
@@ -56,7 +56,7 @@ eval("module.exports = __webpack_require__.p + \"418d633aba002bafb183.jpg\";\n\n
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"81ac3cfae9f20a1187a8.jpg\";\n\n//# sourceURL=webpack://lucky/./image/lucky_image_540.jpg?");
+eval("module.exports = __webpack_require__.p + \"./image/lucky_image_540.jpg\";\n\n//# sourceURL=webpack://lucky/./image/lucky_image_540.jpg?");
 
 /***/ }),
 
@@ -66,7 +66,7 @@ eval("module.exports = __webpack_require__.p + \"81ac3cfae9f20a1187a8.jpg\";\n\n
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"5bb207dfbdb49dafc450.png\";\n\n//# sourceURL=webpack://lucky/./image/slot_image.png?");
+eval("module.exports = __webpack_require__.p + \"./image/slot_image.png\";\n\n//# sourceURL=webpack://lucky/./image/slot_image.png?");
 
 /***/ })
 
@@ -110,7 +110,7 @@ eval("module.exports = __webpack_require__.p + \"5bb207dfbdb49dafc450.png\";\n\n
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "./";
 /******/ 	})();
 /******/ 	
 /************************************************************************/

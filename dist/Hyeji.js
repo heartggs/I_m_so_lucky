@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"e6d2a8bab485f352b8a9.png\";\n\n//# sourceURL=webpack://lucky/./image/cap.png?");
+eval("module.exports = __webpack_require__.p + \"./image/cap.png\";\n\n//# sourceURL=webpack://lucky/./image/cap.png?");
 
 /***/ }),
 
@@ -56,7 +56,7 @@ eval("module.exports = __webpack_require__.p + \"e6d2a8bab485f352b8a9.png\";\n\n
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"4fdcfa5139625ebc22b8.png\";\n\n//# sourceURL=webpack://lucky/./image/cap_me.png?");
+eval("module.exports = __webpack_require__.p + \"./image/cap_me.png\";\n\n//# sourceURL=webpack://lucky/./image/cap_me.png?");
 
 /***/ }),
 
@@ -66,7 +66,7 @@ eval("module.exports = __webpack_require__.p + \"4fdcfa5139625ebc22b8.png\";\n\n
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"70915096ff60ae6a9701.jpg\";\n\n//# sourceURL=webpack://lucky/./image/cotton-canvastextures.jpg?");
+eval("module.exports = __webpack_require__.p + \"./image/cotton-canvastextures.jpg\";\n\n//# sourceURL=webpack://lucky/./image/cotton-canvastextures.jpg?");
 
 /***/ }),
 
@@ -76,7 +76,7 @@ eval("module.exports = __webpack_require__.p + \"70915096ff60ae6a9701.jpg\";\n\n
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"e67b035071246f692f49.png\";\n\n//# sourceURL=webpack://lucky/./image/hoodie.png?");
+eval("module.exports = __webpack_require__.p + \"./image/hoodie.png\";\n\n//# sourceURL=webpack://lucky/./image/hoodie.png?");
 
 /***/ }),
 
@@ -86,7 +86,7 @@ eval("module.exports = __webpack_require__.p + \"e67b035071246f692f49.png\";\n\n
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"b7511bc12fc7d386009a.png\";\n\n//# sourceURL=webpack://lucky/./image/hoodie_me.png?");
+eval("module.exports = __webpack_require__.p + \"./image/hoodie_me.png\";\n\n//# sourceURL=webpack://lucky/./image/hoodie_me.png?");
 
 /***/ }),
 
@@ -96,7 +96,7 @@ eval("module.exports = __webpack_require__.p + \"b7511bc12fc7d386009a.png\";\n\n
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ed34ddfa5eb8dcd8944e.png\";\n\n//# sourceURL=webpack://lucky/./image/jeans.png?");
+eval("module.exports = __webpack_require__.p + \"./image/jeans.png\";\n\n//# sourceURL=webpack://lucky/./image/jeans.png?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("module.exports = __webpack_require__.p + \"ed34ddfa5eb8dcd8944e.png\";\n\n
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ddc7cab67268fbd32b1b.png\";\n\n//# sourceURL=webpack://lucky/./image/jeans_me.png?");
+eval("module.exports = __webpack_require__.p + \"./image/jeans_me.png\";\n\n//# sourceURL=webpack://lucky/./image/jeans_me.png?");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("module.exports = __webpack_require__.p + \"ddc7cab67268fbd32b1b.png\";\n\n
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a1ab91e72bea6ecbbadc.png\";\n\n//# sourceURL=webpack://lucky/./image/person_me.png?");
+eval("module.exports = __webpack_require__.p + \"./image/person_me.png\";\n\n//# sourceURL=webpack://lucky/./image/person_me.png?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("module.exports = __webpack_require__.p + \"a1ab91e72bea6ecbbadc.png\";\n\n
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"083ccbcaba65e61c7134.png\";\n\n//# sourceURL=webpack://lucky/./image/shirt.png?");
+eval("module.exports = __webpack_require__.p + \"./image/shirt.png\";\n\n//# sourceURL=webpack://lucky/./image/shirt.png?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("module.exports = __webpack_require__.p + \"083ccbcaba65e61c7134.png\";\n\n
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"9c523f41c078e7992fb5.png\";\n\n//# sourceURL=webpack://lucky/./image/shirt_me.png?");
+eval("module.exports = __webpack_require__.p + \"./image/shirt_me.png\";\n\n//# sourceURL=webpack://lucky/./image/shirt_me.png?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("module.exports = __webpack_require__.p + \"9c523f41c078e7992fb5.png\";\n\n
   \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f15ddf735db1aa64fd23.png\";\n\n//# sourceURL=webpack://lucky/./image/shoe.png?");
+eval("module.exports = __webpack_require__.p + \"./image/shoe.png\";\n\n//# sourceURL=webpack://lucky/./image/shoe.png?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("module.exports = __webpack_require__.p + \"f15ddf735db1aa64fd23.png\";\n\n
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"d06de101122d0bb4511d.png\";\n\n//# sourceURL=webpack://lucky/./image/shoe_me.png?");
+eval("module.exports = __webpack_require__.p + \"./image/shoe_me.png\";\n\n//# sourceURL=webpack://lucky/./image/shoe_me.png?");
 
 /***/ }),
 
@@ -166,7 +166,7 @@ eval("module.exports = __webpack_require__.p + \"d06de101122d0bb4511d.png\";\n\n
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f7e2bb395f2842bbbf84.png\";\n\n//# sourceURL=webpack://lucky/./image/t-shirt.png?");
+eval("module.exports = __webpack_require__.p + \"./image/t-shirt.png\";\n\n//# sourceURL=webpack://lucky/./image/t-shirt.png?");
 
 /***/ }),
 
@@ -176,7 +176,7 @@ eval("module.exports = __webpack_require__.p + \"f7e2bb395f2842bbbf84.png\";\n\n
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"bf782b97c7bca12ce710.png\";\n\n//# sourceURL=webpack://lucky/./image/t-shirt_me.png?");
+eval("module.exports = __webpack_require__.p + \"./image/t-shirt_me.png\";\n\n//# sourceURL=webpack://lucky/./image/t-shirt_me.png?");
 
 /***/ })
 
@@ -237,7 +237,7 @@ eval("module.exports = __webpack_require__.p + \"bf782b97c7bca12ce710.png\";\n\n
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "./";
 /******/ 	})();
 /******/ 	
 /************************************************************************/

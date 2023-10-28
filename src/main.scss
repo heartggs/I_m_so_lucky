@@ -30,7 +30,7 @@ canvas {
 }
 
 .wrapper {
-  background-image: url(../image//grass-1000-mm-architextures.jpg);
+  background-image: url(grass-1000-mm-architextures.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,7 +161,7 @@ canvas {
       width: #{$slot_width}px;
       height: #{$slot_height}px;
       background-size: #{$slot_width}px;
-      background-image: url(../image/lucky_image_540.jpg);
+      background-image: url(/lucky_image_540.jpg);
     }
   }
 

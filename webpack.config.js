@@ -11,26 +11,46 @@ module.exports = {
   output: {
     filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/",
+    publicPath: "./",
+    assetModuleFilename: "./image/[name][ext]",
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader"],
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: "css-loader",
+            // options: {
+            //   url: false,
+            // },
+          },
+        ],
       },
+      // {
+      //   test: /\.(png|jpg|jpeg)$/,
+      //   use: [
+      //     {
+      //       loader: "file-loader",
+      //       options: {
+      //         name: "[name].[ext]",
+      //       },
+      //     },
+      //   ],
+      // },
       {
-        test: /\.(png|jpg|jpeg)$/,
-        // use: [
-        //   {
-        //     loader: "file-loader",
-        //     options: {
-        //       name: "[name].[ext]",
-        //     },
-        //   },
-        // ],
+        test: /\.(png|svg|jpg|jpeg)$/,
         type: "asset/resource",
       },
+      // {
+      //   test: /\.(png|jpg|jpeg)$/,
+      //   use: [
+      //     {
+      //       loader: "url-loader",
+      //     },
+      //   ],
+      // },
     ],
   },
   plugins: [
