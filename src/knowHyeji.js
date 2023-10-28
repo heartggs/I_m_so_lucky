@@ -8,7 +8,7 @@ const explanationPopup = {
       "Blog : https://blog.naver.com/heather_blog",
       "Github : https://github.com/heartggs",
     ],
-    img: "/person_me.png",
+    img: "image/person_me.png",
   },
   shirt: {
     title: "SI프로젝트 1년 경력 (조직 경험 보유)",
@@ -17,7 +17,7 @@ const explanationPopup = {
       "기획 / 디자인 / 개발자와 같은 타 직무군과의 대화를 통해 프로젝트를 경험",
       "소통과 협업능력이 다른 신입에 비해 좀 더 뛰어날 것으로 예상",
     ],
-    img: "/shirt_me.png",
+    img: "image/shirt_me.png",
   },
   pants: {
     title: "프론트엔드개발자 정혜지",
@@ -26,7 +26,7 @@ const explanationPopup = {
       "이러한 점이 흥미롭게 다가와 프론트엔드 개발자를 선택",
       "프론트엔드 개발자가 되기 위해 열심히 노력중",
     ],
-    img: "/jeans_me.png",
+    img: "image/jeans_me.png",
   },
   jacket: {
     title: "동적인 것에 큰 호기심",
@@ -34,7 +34,7 @@ const explanationPopup = {
       "동적인 인터랙티브 웹 만들기에 큰 호기심을 가지고 있다",
       "세상에서 가장 멋진 인터랙티브 웹을 만들것이다",
     ],
-    img: "/t-shirt_me.png",
+    img: "image/t-shirt_me.png",
   },
   dress: {
     title: "백엔드와의 팀프로젝트를 경험",
@@ -43,7 +43,7 @@ const explanationPopup = {
       "스프링을 주 언어로 사용한 백엔드와 기획부터, 개발, 배포까지 전과정 경험",
       "화면크기에 따른 반응형 웹페이지로 개발",
     ],
-    img: "/hoodie_me.png",
+    img: "image/hoodie_me.png",
   },
   shoe: {
     title: "팀프로젝트(Pop-it!)",
@@ -53,7 +53,7 @@ const explanationPopup = {
       "참여인원 : 프론트엔드 3명 / 백엔드 4명",
       "https://silent-mile-eee.notion.site/POP-IT-47e72bd78e994767b01ae94fcdaa2cf4?pvs=4",
     ],
-    img: "/shoe_me.png",
+    img: "image/shoe_me.png",
   },
   cap: {
     title: "개인프로젝트(caff캪caff)",
@@ -63,7 +63,7 @@ const explanationPopup = {
       "사용스택 : React, Typescript, Axios, React-router-dom, vite, Firebase",
       "https://silent-mile-eee.notion.site/caff-caff-0358eda68b0749f7ace1a340a04bb01f?pvs=4",
     ],
-    img: "/cap_me.png",
+    img: "image/cap_me.png",
   },
 };
 
